@@ -30,3 +30,9 @@ setInterval(function() {
 
 
 var aniCount = 0
+
+aniCount = aniCount + 1
+
+if (aniCount > 4) {
+  $("#lol").color(red);
+  
