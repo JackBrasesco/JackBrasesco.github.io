@@ -35,4 +35,7 @@ aniCount = aniCount + 1
 
 if (aniCount > 4) {
   $("#lol").color(red);
-  
+}
+if (anicount == 10) {
+  $("#lol").color(blue);
+}
