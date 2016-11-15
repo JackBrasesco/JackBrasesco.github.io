@@ -31,9 +31,9 @@ setInterval(function() {
 
 var aniCount = 0
 
-function counter() {
+setInterval(function() {
 aniCount = aniCount + 1
-}
+}, 100)
 console.log(aniCount);
 
 if (aniCount > 4) {
