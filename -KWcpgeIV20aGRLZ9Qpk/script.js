@@ -26,4 +26,7 @@ setInterval(function() {
   }) 	
 
   index = index + 1
-}, 500)
+}, 100)
+
+
+var aniCount = 0
