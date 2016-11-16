@@ -8,8 +8,9 @@ taco.click(function() {
 
 function tacoClickedAnimation1() {
   taco.css({background: "grey"});
-}
-setTimeout
-function tacoClickedAnimation2() {
-  taco.css({background: "white"});
+  
+  setTimeout(
+    function() {
+      taco.css({background: "white"});
+    }, 250)
 }
