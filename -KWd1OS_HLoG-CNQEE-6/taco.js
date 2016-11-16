@@ -7,12 +7,15 @@ taco.click(function() {
 function tacoClickedAnimation1() {
   taco.css({background: "ghostwhite"});
   
-  setTimeout(
-    function() {
+  setTimeout(function() {
       taco.css({background: "white"});
     }, 100)
+  
   moreTaco()
   $("#tacoTitle").html("You have " + tacoCount + " tacos!");
+  setInterval(function() {
+    
+  },1000)
 }
 
 
