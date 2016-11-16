@@ -5,4 +5,6 @@ var chatbtn = $("#d");
 var heybtn = $("#e");
 
 
-signupbtn.click(funtion()
+$("#a").click(funtion() {
+    console.log("hi");        
+  })
