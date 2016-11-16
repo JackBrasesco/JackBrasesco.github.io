@@ -1,0 +1,65 @@
+#title {
+  border: 10px lightgray solid;
+  border-radius: 50px;
+  text-align: center;
+  color: lightgray;
+  background-color: black;
+}
+
+body {
+  background-color: darkgray
+}
+
+#Calbtn {
+  background-color: red;
+}
+
+#Musbtn {
+  background-color: deeppink;
+  color: black;
+
+}
+
+#Dribtn {
+  background-color: blue;
+  color: black;
+}
+
+#Schbtn {
+  background-color: Green;
+  color: black;
+}
+
+#mailbtn {
+  background-color: purple;
+  color: black;
+}
+
+#clabtn {
+  background-color: darkgreen;
+  color: black;
+}
+
+#chatbtn {
+  background-color: goldenrod;
+  color: black;
+}
+
+#youbtn {
+  background-color: darkred;
+  color: black;
+}
+
+#spanbtn {
+  background-color: darkblue;
+  color: black;
+}
+
+.row {
+  display: block
+}
+
+.btns {
+  margin-top: 25;
+  margin-left: 250px
+}
