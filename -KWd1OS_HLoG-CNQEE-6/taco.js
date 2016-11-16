@@ -14,6 +14,7 @@ function tacoClickedAnimation1() {
   moreTaco()
   $("#tacoTitle").html("You have " + tacoCount + " tacos!" +"<br>" + "You are generating " + tacoPerSecond + " tacos per second");
   setInterval(function() {
+    var useForTPS = (tacoC);
     tacoPerSecond = (tacoCount - tacoPerSecond)
     console.log(tacoPerSecond)
   },1000)
