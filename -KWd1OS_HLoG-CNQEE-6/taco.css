@@ -18,5 +18,7 @@
   width: 100;
   color: blue;
   text-decoration: underline;
-  align-
+  align-items: baseline;
 }
+
+.bottomBar
