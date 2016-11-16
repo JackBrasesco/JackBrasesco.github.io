@@ -14,5 +14,13 @@ signinbtn.click(function() {
 })
 
 bobbtn.click(function() {
+ console.log("hic"); 
+})
+
+chatbtn.click(function() {
+  console.log("hid");
+})
   
-  
+heybtn.click(function() {
+  conso
+})
