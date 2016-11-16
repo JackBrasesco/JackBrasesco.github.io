@@ -11,6 +11,10 @@ function tacoClickedAnimation1() {
     function() {
       taco.css({background: "white"});
     }, 100)
+  $("#tacoTitle").html("hi");
 }
 
 
+var tacoCount = 0
+
+var moreTaco()
