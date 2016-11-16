@@ -22,5 +22,5 @@ chatbtn.click(function() {
 })
   
 heybtn.click(function() {
-  conso
+  console.log("hie");
 })
