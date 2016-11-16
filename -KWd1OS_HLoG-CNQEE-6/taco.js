@@ -15,6 +15,7 @@ function tacoClickedAnimation1() {
   $("#tacoTitle").html("You have " + tacoCount + " tacos!" +"<br>" + "You are generating " + tacoPerSecond + " tacos per second");
   setInterval(function() {
     tacoPerSecond = (tacoCount - tacoPerSecond)
+    conosle.log(tacoPerSecond)
   },1000)
 }
 
